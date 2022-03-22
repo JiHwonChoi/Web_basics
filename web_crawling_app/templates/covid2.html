@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Problem No.2</title>
+</head>
+<body>
+    <h1> Week 15 Assignment </h1>
+<ul>
+<li><h1><a href="/finance">Problem 1</a></h1></li>
+<li><h1><a href="/covid">Problem 2</a></h1></li>
+<li><h1><a href="/publication">Problem 3</a></h1></li>
+</ul>
+<br></br>
+<table style="width:80%;margin:auto;text-align:center;">
+<tr>
+    <th>Country</th>
+    <th>Total Cases</th>
+    <th>Total Deaths</th>
+</tr>
+<!----------- TODO --------->
+    {% for i in range(5) %}
+        <tr>
+            <td>{{names[i]}}</td>
+            <td>{{totals[i]}}</td>
+            <td>{{deaths[i]}}</td>
+        </tr>
+    {% endfor %}
+
+<!-----------  END ---------->
+</table>
+<br/>  
+</body>
+</html>

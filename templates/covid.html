@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Problem No.2</title>
+</head>
+<body>
+<table style="width:80%;margin:auto;text-align:center;">
+<tr>
+    <th>Country</th>
+    <th>Total Cases</th>
+    <th>Total Deaths</th>
+</tr>
+<!----------- TODO --------->
+    {% for i in range(5) %}
+        <tr>
+            <td>{{names[i]}}</td>
+            <td>{{totals[i]}}</td>
+            <td>{{deaths[i]}}</td>
+        </tr>
+    {% endfor %}
+
+<!-----------  END ---------->
+</table>
+<br/>  
+</body>
+</html>
